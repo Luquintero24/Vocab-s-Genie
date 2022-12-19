@@ -1,0 +1,31 @@
+from tkinter import *
+from tkinter import messagebox
+import Diccionario
+import random
+from cProfile import label
+from tkinter import*
+import tkinter as tk
+from pygame import *
+from PIL import Image,ImageTk,ImageSequence
+
+raiz= Tk()
+raiz.title("Vocabs Genie")
+raiz.resizable(1,1)
+raiz.config(background="black")
+
+c=Image.open("2.png")
+c = c.resize((400,400))
+cc=ImageTk.PhotoImage(c)
+
+Boton2=tk.Button(raiz,image=cc).place(x=110,y=200),
+
+
+
+
+
+
+
+
+
+
+raiz.mainloop()

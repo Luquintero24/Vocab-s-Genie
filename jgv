@@ -1,0 +1,16 @@
+import Diccionario
+
+for i in range(2,18):
+    archivo= file
+    Diccionario.saca_lista(i)
+
+global dictio
+dictio=[0,1]
+for i in range(2,18):
+    dictio.append(Diccionario.saca_lista(i))
+
+customtkinter.set_appearance_mode("dark")  # Modes: system (default), light, dark
+customtkinter.set_default_color_theme("dark-blue")  # Themes: blue (default), dark-blue, green
+   
+
+Boton5=customtkinter.CTkButton(juego,text="5",width=6,height=3,command=pal5).place(x=500,y=200),
